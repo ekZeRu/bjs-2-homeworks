@@ -11,10 +11,6 @@ function solveEquation(a, b, c) {
   }
   return arr;
 }
-solveEquation(9, -30, 25)
-solveEquation(1, 5, 4)
-solveEquation(1, 2, 1)
-solveEquation(1, 2, 10)
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let monthlypercent = percent * 0.01;
@@ -23,8 +19,3 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let result = (monthlyDebt * countMonths + contribution).toFixed(2);
   return Number(result);
 }
-calculateTotalMortgage(10, 0, 50000, 12)
-calculateTotalMortgage(10, 1000, 50000, 12)
-calculateTotalMortgage(10, 20000, 20000, 48)
-calculateTotalMortgage(10, 0, 10000, 36)
-calculateTotalMortgage(15, 0, 10000, 36)
